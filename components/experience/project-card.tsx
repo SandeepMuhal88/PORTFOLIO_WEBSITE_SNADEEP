@@ -16,8 +16,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       <div className="relative w-full h-[200px]">
         <Image
           className="rounded-lg border border-border object-cover"
-          src={project.companyLogoImg}
-          alt="img"
+          src="/public/pythonfundation.png"
+          alt="pythonfundation.png"
           fill
         />
       </div>
